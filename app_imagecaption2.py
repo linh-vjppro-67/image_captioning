@@ -31,7 +31,7 @@ def convertImgToBase64_image(image_file):
 
 
 # Text/ Title
-# st.title("helllo cu lì tutorial")
+st.title("BỘ MÔN VIỄN THÔNG")
 st.markdown("<h1 style='text-align: center;'>IMAGE SEARCH SYSTEM</h1>", unsafe_allow_html=True)
 st.markdown("""
 |GVHD     | TS. Võ Tuấn Kiệt     |
