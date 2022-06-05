@@ -18,7 +18,7 @@ def download_url():
         return URL
 
 URL = download_url()
-
+print(URL)
 
 # Tranfer img to base: 
 # def convertImgToBase64_image(img):
