@@ -18,7 +18,7 @@ from copy import copy
 #         URL = URL_json["url"]
 #         return URL
 
-URL = "https://9e2c-34-80-55-246.ngrok.io"
+URL = "https://f549-34-80-55-246.ngrok.io"
 
 
 # Tranfer img to base: 
