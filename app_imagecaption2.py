@@ -9,16 +9,16 @@ import base64
 import gdown
 from copy import copy
 
-def download_url():
+# def download_url():
     
-    gdown.download(id="1ISIrl-qAtPr8SU4rIoSQJuqJcziFjSm8", output="url.json")
-    # gdown.download(id="1-7fXnBRgjZlydpT_7iG9e9e66vhN78nm", output="url.json")
-    with open("url.json", "r") as bf:
-        URL_json = json.load(bf)
-        URL = URL_json["url"]
-        return URL
+#     gdown.download(id="1ISIrl-qAtPr8SU4rIoSQJuqJcziFjSm8", output="url.json")
+#     # gdown.download(id="1-7fXnBRgjZlydpT_7iG9e9e66vhN78nm", output="url.json")
+#     with open("url.json", "r") as bf:
+#         URL_json = json.load(bf)
+#         URL = URL_json["url"]
+#         return URL
 
-URL = download_url()
+URL = "https://fe7a-35-231-97-56.ngrok.io"
 
 
 # Tranfer img to base: 
