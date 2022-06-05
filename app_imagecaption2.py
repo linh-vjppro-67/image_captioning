@@ -98,8 +98,8 @@ st.write("-------------------------------------------------------")
 st.markdown("<h3 style='text-align: center;'>IMAGE CAPTIONING </h1>", unsafe_allow_html=True)
 
 image_file = st.file_uploader("Upload for image captioning",type=['jpg','png','JPEG'])
-print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-print(image_file)
+st.write('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+st.write(image_file)
 try:
     image_file_ = copy(image_file)
     image_file_ = Image.open(image_file_)
