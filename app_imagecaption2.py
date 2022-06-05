@@ -17,7 +17,7 @@ def download_url():
         URL = URL_json["url"]
         return URL
 
-URL = download_url()
+URL = 'https://315e-35-247-122-251.ngrok.io'
 st.write(URL)
 
 # Tranfer img to base: 
