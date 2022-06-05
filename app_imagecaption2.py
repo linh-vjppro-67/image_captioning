@@ -18,7 +18,7 @@ def download_url():
         return URL
 
 URL = 'https://7a9a-34-75-101-25.ngrok.io'
-print(URL)
+st.write(URL)
 
 # Tranfer img to base: 
 # def convertImgToBase64_image(img):
