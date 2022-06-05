@@ -18,7 +18,7 @@ from copy import copy
 #         URL = URL_json["url"]
 #         return URL
 
-URL = "https://c4db-34-80-55-246.ngrok.io"
+URL = "https://d3f4-34-80-55-246.ngrok.io"
 
 
 # Tranfer img to base: 
@@ -98,8 +98,7 @@ st.write("-------------------------------------------------------")
 st.markdown("<h3 style='text-align: center;'>IMAGE CAPTIONING </h1>", unsafe_allow_html=True)
 
 image_file = st.file_uploader("Upload for image captioning",type=['jpg','png','JPEG'])
-st.write('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-st.write(image_file)
+
 try:
     image_file_ = copy(image_file)
     image_file_ = Image.open(image_file_)
