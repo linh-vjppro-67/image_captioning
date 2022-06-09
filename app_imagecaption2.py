@@ -19,7 +19,7 @@ from copy import copy
 #        return URL
        
 
-URL = 'https://c277-34-75-123-5.ngrok.io'
+URL = 'https://2b40-34-75-123-5.ngrok.io'
 #st.write(URL)
 
 # Tranfer img to base: 
